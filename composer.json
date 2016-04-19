@@ -1,0 +1,32 @@
+{
+	"name" : "stinger/strophe-js-bundle",
+	"type" : "symfony-bundle",
+	"description" : "Symfony2 Bundle to integrate the strophe js library",
+	"keywords" : [
+		"xmpp",
+		"message",
+		"bosh",
+		"websocket",
+		"browser",
+		"symfony"
+	],
+	"homepage" : "http://strophe.im/",
+	"license" : [
+		"MIT"
+	],
+	"authors" : [{
+			"name" : "Florian Meyer",
+			"email" : "florian.meyer@stinger-soft.net",
+			"homepage" : "http://www.stinger-soft.net"
+		}
+	],
+	"require" : {
+		"symfony/framework-bundle" : ">=2.3",
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Stinger\\StropheJsBundle" : ""
+		}
+	},
+	"target-dir" : "Stinger/StropheJsBundle"
+}
